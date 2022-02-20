@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BrowserAutomationStudioProject>
+     <Script><![CDATA[section(1 /*1*/,1 /*1*/,1 /*1*/,0,function(){
+   section_start("\u007b\u0022n\u0022:\u0022Initialize\u0022\u007d", 0)!
+
+   section_end()!
+
+   _call(_on_start, null)!
+
+   section_start("", 153016161)!
+   /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJTVFJJTkcifSx7ImlkIjoiU2V0VmFyaWFibGVWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoie3tzdHJpbmd9fSIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+   RS("string", false, false)!
+   RESOURCE_985878 = _result().get()
+   VAR_STRING = RESOURCE_985878
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022sha256\u0022\u007d", 14176099)!
+   /*Dat:eyJzIjoiRW1iZWRkZWRMYW5ndWFnZXNOb2RlSnMiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTm9kZVZlcnNpb25MaXN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiIxMi4xOC4zIn0seyJpZCI6Ik5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InpsMnRzcHA5IiwiY2xhc3MiOiJzdHJpbmcifV19*/
+   /*VAR_STRING VAR_HASH*/
+   _embedded("zl2tspp9", "Node", "12.18.3", "STRING,HASH", 60000 )!
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022читать exel\u0022,\u0022c\u0022:\u00221\u0022\u007d", 542237041)!
+   /*Dat:eyJzIjoiRW1iZWRkZWRMYW5ndWFnZXNOb2RlSnMiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTm9kZVZlcnNpb25MaXN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiIxMi4xOC4zIn0seyJpZCI6Ik5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjhvOGh3MWNuOTI0IiwiY2xhc3MiOiJzdHJpbmcifV19*/
+   _embedded("8o8hw1cn924", "Node", "12.18.3", "", 60000 )!
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022generates CSV\u0022,\u0022c\u0022:\u00221\u0022\u007d", 365099780)!
+   /*Dat:eyJzIjoiRW1iZWRkZWRMYW5ndWFnZXNOb2RlSnMiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTm9kZVZlcnNpb25MaXN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiIxMi4xOC4zIn0seyJpZCI6Ik5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImQ0MWVhYmcxNG8iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+   _embedded("d41eabg14o", "Node", "12.18.3", "", 60000 )!
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022переменная DATA\u0022,\u0022c\u0022:\u00221\u0022\u007d", 910906649)!
+   /*Dat:eyJzIjoiRW1iZWRkZWRMYW5ndWFnZXNOb2RlSnMiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTm9kZVZlcnNpb25MaXN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiIxMi4xOC4zIn0seyJpZCI6Ik5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Inp2ZWZsN215YTM5IiwiY2xhc3MiOiJzdHJpbmcifV19*/
+   /*VAR_DATA*/
+   _embedded("zvefl7mya39", "Node", "12.18.3", "DATA", 60000 )!
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022Хэш, try catch await\u0022,\u0022c\u0022:\u00223\u0022\u007d", 831360631)!
+   /*Dat:eyJzIjoiRW1iZWRkZWRMYW5ndWFnZXNOb2RlSnMiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTm9kZVZlcnNpb25MaXN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiIxMi4xOC4zIn0seyJpZCI6Ik5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Im1qdGwzNHBvdXZtIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+   _embedded("mjtl34pouvm", "Node", "12.18.3", "", 60000 )!
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022Facebook API\u0022,\u0022c\u0022:\u00225\u0022\u007d", 741204673)!
+   /*Dat:eyJzIjoiRW1iZWRkZWRMYW5ndWFnZXNOb2RlSnMiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTm9kZVZlcnNpb25MaXN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiIxMi4xOC4zIn0seyJpZCI6Ik5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ingwc3YzMmxybGciLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+   _embedded("x0sv32lrlg", "Node", "12.18.3", "", 60000 )!
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022FTP\u0022,\u0022c\u0022:\u00222\u0022\u007d", 269625956)!
+   /*Dat:eyJzIjoiRW1iZWRkZWRMYW5ndWFnZXNOb2RlSnMiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTm9kZVZlcnNpb25MaXN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiIxMi4xOC4zIn0seyJpZCI6Ik5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjkyNHZtYmtsNWY4IiwiY2xhc3MiOiJzdHJpbmcifV19*/
+   _embedded("924vmbkl5f8", "Node", "12.18.3", "", 60000 )!
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022YouTube Download\u005cn(не работает, найти инфу)\u0022,\u0022c\u0022:\u00224\u0022\u007d", 993514165)!
+   /*Dat:eyJzIjoiRW1iZWRkZWRMYW5ndWFnZXNOb2RlSnMiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTm9kZVZlcnNpb25MaXN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiIxMi4xOC4zIn0seyJpZCI6Ik5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImhidmY4dGFxeGxnIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+   _embedded("hbvf8taqxlg", "Node", "12.18.3", "", 60000 )!
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022YouTube Download 2\u005cn(не работает, найти инфу)\u0022,\u0022c\u0022:\u00224\u0022\u007d", 379090578)!
+   /*Dat:eyJzIjoiRW1iZWRkZWRMYW5ndWFnZXNOb2RlSnMiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTm9kZVZlcnNpb25MaXN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiIxMi4xOC4zIn0seyJpZCI6Ik5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImtrbTV3anRyeXpxIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+   _embedded("kkm5wjtryzq", "Node", "12.18.3", "", 60000 )!
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022загрузка сайта и клик по кнопке\u0022\u007d", 360960003)!
+   /*Dat:eyJzIjoiRW1iZWRkZWRMYW5ndWFnZXNOb2RlSnMiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTm9kZVZlcnNpb25MaXN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiIxMi4xOC4zIn0seyJpZCI6Ik5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjY1dm9iZm4zMGF1IiwiY2xhc3MiOiJzdHJpbmcifV19*/
+   _embedded("65vobfn30au", "Node", "12.18.3", "", 60000 )!
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022отправляю почту (файл)\u0022,\u0022c\u0022:\u00222\u0022\u007d", 450560176)!
+   /*Dat:eyJzIjoiRW1iZWRkZWRMYW5ndWFnZXNOb2RlSnMiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTm9kZVZlcnNpb25MaXN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiIxMi4xOC4zIn0seyJpZCI6Ik5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjYyMGIzc2xjY2tvIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+   _embedded("620b3slccko", "Node", "12.18.3", "", 60000 )!
+   section_end()!
+
+})!]]></Script>
+     <ModuleInfo><![CDATA[{
+}
+]]></ModuleInfo>
+     <Modules/>
+     <EmbeddedData><![CDATA[[{"data":"const crypto = require('crypto');\r\n\r\nconsole.log([[STRING]]);\r\nconst secret = 'abcdefg';\r\nconst hash = crypto.createHmac('sha256', secret)\r\n               .update([[STRING]])\r\n               .digest('hex');\r\n[[HASH]] = hash\r\n\r\n\r\nawait require(\"../Отправить почту\")();\r\n","data_name":"zl2tspp9","data_type":0,"language_name":"Node","language_version":"12.18.3"},{"data":"\r\nif(typeof require !== 'undefined') XLSX = require('xlsx');\r\nvar workbook = XLSX.readFile('C:/Users/Manticora/Documents/BAS/resources/files/users.xlsx');\r\n \r\nvar first_sheet_name = workbook.SheetNames[0];\r\nvar address_of_cell = 'A1';\r\n\r\n/* Get worksheet */\r\nvar worksheet = workbook.Sheets[first_sheet_name];\r\n\r\n/* Find desired cell */\r\nvar desired_cell = worksheet[address_of_cell];\r\n\r\n/* Get the value */\r\nvar desired_value = (desired_cell ? desired_cell.v : undefined);\r\n\r\nconsole.log(desired_value);\r\n","data_name":"8o8hw1cn924","data_type":0,"language_name":"Node","language_version":"12.18.3"},{"data":"\r\nif(typeof require !== 'undefined') XLSX = require('xlsx');\r\nvar workbook = XLSX.readFile('C:/Users/Manticora/Documents/BAS/resources/files/users.xlsx');\r\n\r\nvar first_sheet_name = workbook.SheetNames[0];\r\n\r\n/* Get worksheet */\r\nvar worksheet = workbook.Sheets[first_sheet_name];\r\n\r\nvar data = XLSX.utils.sheet_to_csv(worksheet)\r\n\r\nconsole.log(data);\r\n","data_name":"d41eabg14o","data_type":0,"language_name":"Node","language_version":"12.18.3"},{"data":"\r\nif(typeof require !== 'undefined') XLSX = require('xlsx');\r\nvar workbook = XLSX.readFile('C:/Users/Manticora/Documents/BAS/resources/files/users.xlsx');\r\n\r\nvar first_sheet_name = workbook.SheetNames[0];\r\n\r\n/* Get worksheet */\r\nvar worksheet = workbook.Sheets[first_sheet_name];\r\n\r\n[[DATA]] = XLSX.utils.sheet_to_csv(worksheet).split(\"\\n\")\r\n","data_name":"zvefl7mya39","data_type":0,"language_name":"Node","language_version":"12.18.3"},{"data":"try {\r\n    await(new Promise((resolve, reject) => {\r\n        const secret = 'abcdefg';\r\n        const hash = crypto.createHmac('sha256', secret)\r\n            .update('I love cupcakes')\r\n            .digest('hex');\r\n        console.log(hash);\r\n        resolve()\r\n    }));\r\n} catch (e) { }","data_name":"mjtl34pouvm","data_type":0,"language_name":"Node","language_version":"12.18.3"},{"data":"var FB = require('fb');\r\n\r\nFB.setAccessToken('access_token');\r\n\r\nvar body = 'My first post using facebook-node-sdk';\r\n\r\nawait(new Promise((resolve, reject) => {\r\n    FB.api('me/feed', 'post', { message: body }, function (res) {\r\n        if (!res || res.error) {\r\n            reject(!res ? 'error occurred' : res.error);\r\n            return;\r\n        }\r\n        console.log('Post Id: ' + res.id);\r\n        resolve()\r\n    });\r\n}));","data_name":"x0sv32lrlg","data_type":0,"language_name":"Node","language_version":"12.18.3"},{"data":"var Client = require('ftp');\r\n\r\nvar c = new Client();\r\n\r\nc.connect();\r\n\r\nawait(new Promise((resolve, reject) => {\r\n    c.on('ready', function () {\r\n        c.list(function (err, list) {\r\n            if (err)\r\n                reject(err);\r\n            console.log(list);\r\n            c.end();\r\n            resolve()\r\n        });\r\n    });\r\n}));","data_name":"924vmbkl5f8","data_type":0,"language_name":"Node","language_version":"12.18.3"},{"data":"const fs = require('fs');\r\nconst ytdl = require('ytdl-core');\r\n\r\nawait (new Promise((resolve, reject) => {\r\n\tytdl('https://www.youtube.com/watch?v=uT-k0YnZUZ4')\r\n  .pipe(fs.createWriteStream('C:\\\\Users\\\\Manticora\\\\Documents\\\\BAS\\\\resources\\\\files\\\\cat3.mp4'));\r\n\tresolve()\r\n}));\r\n","data_name":"hbvf8taqxlg","data_type":0,"language_name":"Node","language_version":"12.18.3"},{"data":"const fs = require('fs');\r\nconst ytdl = require('ytdl-core');\r\n\r\nawait(new Promise((resolve, reject) => {\r\n    ytdl('https://www.youtube.com/watch?v=f_dtXYb80tE')\r\n        .pipe(fs.createWriteStream('C:\\\\Users\\\\Manticora\\\\Documents\\\\BAS\\\\resources\\\\files\\\\cat1.mp4')).on(\"close\", function () {\r\n            resolve()\r\n        });\r\n}));\r\n","data_name":"kkm5wjtryzq","data_type":0,"language_name":"Node","language_version":"12.18.3"},{"data":"for(var i = 0; i<3; i++)\r\n{\r\nconsole.log(\"Загружаю сайт\")\r\n\r\nawait BAS_API(\"_HEX:5f6c6f616428226261626c6f736f66742e636f6d222c2022222c2066616c73652921\");\r\n\r\nconsole.log(\"Нажимаю на кнопку\")\r\n\r\nawait BAS_API(\"_HEX:5f53454c4543544f52203d2022205c75303033654353535c753030336520236e61766261722d65782d636f6c6c61707365205c7530303365203a6e74682d6368696c64283129205c7530303365203a6e74682d6368696c64283329205c75303033652061223b0a776169745f656c656d656e745f76697369626c65285f53454c4543544f5229210a5f63616c6c285f72616e646f6d5f706f696e742c207b7d29210a5f6966285f726573756c7428292e6c656e677468203e20302c2066756e6374696f6e28297b0a6d6f766528207b7d2029210a6765745f656c656d656e745f73656c6563746f72285f53454c4543544f522c2066616c7365292e636c617269667928582c5929210a5f63616c6c285f636c61726966792c207b7d2029210a6d6f75736528582c5929210a7d29210a776169745f6173796e635f6c6f6164282921\");\r\n\r\nconsole.log(\"Готово!\")\r\n}","data_name":"65vobfn30au","data_type":0,"language_name":"Node","language_version":"12.18.3"},{"data":"\r\n\r\nawait require(\"../Отправить почту\")();\r\n\r\n","data_name":"620b3slccko","data_type":0,"language_name":"Node","language_version":"12.18.3"},{"data":"module.exports = async function () {\n    console.log(\"Отправляю почту\")\n\n    await (new Promise((resolve, reject) => {\n        setTimeout(function () {\n            resolve()\n        }, 1000)\n    }));\n\n}","data_name":"Отправить почту","data_type":1,"language_name":"Node","language_version":"12.18.3"}]]]></EmbeddedData>
+     <DatabaseId>Database.32648</DatabaseId>
+     <Schema></Schema>
+     <ConnectionIsRemote>false</ConnectionIsRemote>
+     <ConnectionServer></ConnectionServer>
+     <ConnectionPort></ConnectionPort>
+     <ConnectionLogin></ConnectionLogin>
+     <ConnectionPassword></ConnectionPassword>
+     <ScriptName>ScriptName</ScriptName>
+     <ProtectionStrength>4</ProtectionStrength>
+     <UnusedModules>ClickCaptcha;JSON;SQL;PhoneVerification;FTP;URL;Excel;Archive;Path;String</UnusedModules>
+     <ScriptIcon>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</ScriptIcon>
+     <IsCustomIcon>false</IsCustomIcon>
+     <HideBrowsers>false</HideBrowsers>
+     <IntegrateScheduler>false</IntegrateScheduler>
+     <SingleInstance>false</SingleInstance>
+     <CopySilent>false</CopySilent>
+     <IsEnginesInAppData>false</IsEnginesInAppData>
+     <CompileType>NoProtection</CompileType>
+     <ScriptVersion>1.0.0</ScriptVersion>
+     <AvailableLanguages>en,ru</AvailableLanguages>
+     <EngineVersion>24.3.1</EngineVersion>
+     <SettingsWorker>EnableFlash=false
+EnableWidevine=false
+AutostartDebug=false
+SaveBrowserLog=false
+ProfilesCaching=true
+ToolboxHeight=440
+MaxBrowserStartSimultaneously=3
+MinFreeMemoryToStartBrowser=1500
+MinUnusedCpu=35
+ScenarioWidth=378
+Zoom=100
+IsMaximized=false
+Restart=true
+UseHumanLikeMouseMoves=true
+DebugToolbox=false
+DebugScenario=false
+Languages=&quot;Node,12.18.3;Node,8.6.0&quot;
+Modules=&quot;Node,12.18.3,xlsx,*;Node,12.18.3,mysql,*;Node,12.18.3,fb,*;Node,12.18.3,ftp,*;Node,12.18.3,ytdl-core,*&quot;
+Canvas=&quot;disable&quot;
+CanvasNoise=&quot;&quot;
+Audio=&quot;disable&quot;
+QUIC=&quot;disable&quot;
+AudioNoise=&quot;&quot;
+MaxFPS=30
+Webrtc=&quot;disable&quot;
+WebrtcIps=&quot;&quot;
+Webgl=&quot;disable&quot;
+WebglNoise=&quot;&quot;
+WebglRenderer=&quot;&quot;
+WebglVendor=&quot;&quot;
+Detector=true
+</SettingsWorker>
+     <ChromeCommandLine>--disk-cache-size=1
+--disable-gpu-program-cache
+--disable-gpu-shader-disk-cache
+--disable-component-update
+--disable-features=GpuProcessHighPriorityWin,GpuUseDisplayThreadPriority
+--lang=en
+--disable-auto-reload</ChromeCommandLine>
+     <ModulesMetaJson>{
+    &quot;Archive&quot;: true,
+    &quot;Checksum&quot;: false,
+    &quot;Excel&quot;: true,
+    &quot;FTP&quot;: true,
+    &quot;FunCaptcha&quot;: false,
+    &quot;HCaptcha&quot;: false,
+    &quot;ReCaptcha&quot;: false,
+    &quot;SQL&quot;: true,
+    &quot;SmsReceive&quot;: true
+}
+</ModulesMetaJson>
+     <OutputTitle1 ru="First Results" en="First Results"/>
+     <OutputTitle2 ru="Second Results" en="Second Results"/>
+     <OutputTitle3 ru="Third Results" en="Third Results"/>
+     <OutputTitle4 ru="Fourth Results" en="Fourth Results"/>
+     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
+     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
+     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
+     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
+     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
+     <OutputVisible1>1</OutputVisible1>
+     <OutputVisible2>1</OutputVisible2>
+     <OutputVisible3>1</OutputVisible3>
+     <OutputVisible4>0</OutputVisible4>
+     <OutputVisible5>0</OutputVisible5>
+     <OutputVisible6>0</OutputVisible6>
+     <OutputVisible7>0</OutputVisible7>
+     <OutputVisible8>0</OutputVisible8>
+     <OutputVisible9>0</OutputVisible9>
+     <ModelList>
+          <Model>
+               <Name>string</Name>
+               <Description ru="string" en="string"/>
+               <SectionName ru=""/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+          </Model>
+          <Defaults/>
+     </ModelList>
+</BrowserAutomationStudioProject>
