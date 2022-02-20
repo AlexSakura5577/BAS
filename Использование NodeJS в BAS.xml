@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BrowserAutomationStudioProject>
+     <Script><![CDATA[section(1 /*1*/,1 /*1*/,1 /*1*/,0,function(){
+   section_start("\u007b\u0022n\u0022:\u0022Initialize\u0022\u007d", 0)!
+
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022showMessage\u0022,\u0022fd\u0022:\u0022\u007b\u005c\u0022fd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022hr\u005c\u0022:true,\u005c\u0022rd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022rv\u005c\u0022:\u005c\u0022FUNCTION_RESULT\u005c\u0022,\u005c\u0022p\u005c\u0022:[\u007b\u005c\u0022name\u005c\u0022:\u005c\u0022msg1\u005c\u0022,\u005c\u0022type\u005c\u0022:\u005c\u0022String\u005c\u0022,\u005c\u0022description\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022defaults\u005c\u0022:\u005c\u0022\u005c\u0022\u007d,\u007b\u005c\u0022name\u005c\u0022:\u005c\u0022msg2\u005c\u0022,\u005c\u0022type\u005c\u0022:\u005c\u0022String\u005c\u0022,\u005c\u0022description\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022defaults\u005c\u0022:\u005c\u0022\u005c\u0022\u007d]\u007d\u0022\u007d", 34759199)!
+   function showMessage()
+   {
+   section_insert()
+      section_start("\u007b\u0022n\u0022:\u0022Получаем параметр функции\u0022,\u0022c\u0022:\u00222\u0022\u007d", 972030762)!
+      /*Dat:eyJzIjoiZ2V0ZnVuY3Rpb25wYXJhbWV0ZXIiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiUGFyYW1ldGVyTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoibXNnMSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlNhdmUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6Ik1TRzEifV19*/
+      VAR_MSG1 = _function_argument("msg1")
+      section_end()!
+
+      section_start("\u007b\u0022n\u0022:\u0022Получаем параметр функции\u0022,\u0022c\u0022:\u00222\u0022\u007d", 234990866)!
+      /*Dat:eyJzIjoiZ2V0ZnVuY3Rpb25wYXJhbWV0ZXIiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiUGFyYW1ldGVyTmFtZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoibXNnMiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlNhdmUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6Ik1TRzIifV19*/
+      VAR_MSG2 = _function_argument("msg2")
+      section_end()!
+
+      section_start("", 104744170)!
+      /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImxvZyhbW01TRzFdXSlcclxubG9nKFtbTVNHMl1dKSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+      log(VAR_MSG1)
+      log(VAR_MSG2)
+      section_end()!
+
+      section_start("\u007b\u0022n\u0022:\u0022Завершить выполнение функции и вернуть результат\u0022,\u0022c\u0022:\u00221\u0022\u007d", 241127611)!
+      /*Dat:eyJzIjoicmV0dXJuIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IlJldHVyblZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiLQpNGD0L3QutGG0LjRjyDQstGL0L/QvtC70L3QtdC90LAg0YPRgdC/0LXRiNC90L4iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+      _function_return("Функция выполнена успешно")
+      section_end()!
+
+   }
+   section_end()!
+
+   _call(_on_start, null)!
+
+   section_start("\u007b\u0022n\u0022:\u0022Лог После ожидания 2 сек\u0022\u007d", 942580891)!
+   /*Dat:eyJzIjoiRW1iZWRkZWRMYW5ndWFnZXNOb2RlSnMiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTm9kZVZlcnNpb25MaXN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiIxMi4xOC4zIn0seyJpZCI6Ik5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjFlcHJwdW4xYnNsIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+   _embedded("1eprpun1bsl", "Node", "12.18.3", "", 60000 )!
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022подключение файла test\u0022\u007d", 292253075)!
+   /*Dat:eyJzIjoiRW1iZWRkZWRMYW5ndWFnZXNOb2RlSnMiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTm9kZVZlcnNpb25MaXN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiIxMi4xOC4zIn0seyJpZCI6Ik5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImMwbmpnOHM2ZXduIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+   _embedded("c0njg8s6ewn", "Node", "12.18.3", "", 60000 )!
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022console.log(test.name)\u005cnthrow \u005c\u0022Stop reason\u005c\u0022\u0022\u007d", 362642445)!
+   /*Dat:eyJzIjoiRW1iZWRkZWRMYW5ndWFnZXNOb2RlSnMiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTm9kZVZlcnNpb25MaXN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiIxMi4xOC4zIn0seyJpZCI6Ik5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImJrc3lmYWJ6c2M3IiwiY2xhc3MiOiJzdHJpbmcifV19*/
+   _embedded("bksyfabzsc7", "Node", "12.18.3", "", 60000 )!
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022await require(\u005c\u0022../test\u005c\u0022)()\u0022\u007d", 984314057)!
+   /*Dat:eyJzIjoiRW1iZWRkZWRMYW5ndWFnZXNOb2RlSnMiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTm9kZVZlcnNpb25MaXN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiIxMi4xOC4zIn0seyJpZCI6Ik5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Im9xb2FobTB5cW4iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+   _embedded("oqoahm0yqn", "Node", "12.18.3", "", 60000 )!
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022await (new Promise((resolve, reject)\u0022\u007d", 904268404)!
+   /*Dat:eyJzIjoiRW1iZWRkZWRMYW5ndWFnZXNOb2RlSnMiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMSIsInV0aSI6IjEiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6Ik5vZGVWZXJzaW9uTGlzdCIsInR5cGUiOiJzZWxlY3QiLCJkYXRhIjoiMTIuMTguMyJ9LHsiaWQiOiJOYW1lIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI5dWNsNGM0dWdxZyIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+   _embedded("9ucl4c4ugqg", "Node", "12.18.3", "", 1000 )!
+   section_end()!
+
+   section_start("", 613521746)!
+   /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InRleHQiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+   log("text")
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022await BAS_API(\u005c\u0022_HEX:6c6f672822746578742229\u005c\u0022\u0022\u007d", 512374496)!
+   /*Dat:eyJzIjoiRW1iZWRkZWRMYW5ndWFnZXNOb2RlSnMiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTm9kZVZlcnNpb25MaXN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiIxMi4xOC4zIn0seyJpZCI6Ik5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjhhdDczbXIwYW1kIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+   _embedded("8at73mr0amd", "Node", "12.18.3", "", 60000 )!
+   section_end()!
+
+   section_start("", 430342802)!
+   /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXByYW5kb20iLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
+   sleep(1000)!
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022api.sleep (3000)\u0022\u007d", 303836577)!
+   /*Dat:eyJzIjoiRW1iZWRkZWRMYW5ndWFnZXNOb2RlSnMiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTm9kZVZlcnNpb25MaXN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiIxMi4xOC4zIn0seyJpZCI6Ik5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjJ6c250dDR1NHJkIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+   _embedded("2zsntt4u4rd", "Node", "12.18.3", "", 60000 )!
+   section_end()!
+
+   section_start("", 559651228)!
+   /*Dat:eyJzIjoic2NyaXB0X3N0YXRzX3Byb2plY3RfcGF0aCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJQUk9KRUNUX1BBVEgifV19*/
+   VAR_PROJECT_PATH = project_path();
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022путь к проекту\u0022\u007d", 95310674)!
+   /*Dat:eyJzIjoiRW1iZWRkZWRMYW5ndWFnZXNOb2RlSnMiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTm9kZVZlcnNpb25MaXN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiIxMi4xOC4zIn0seyJpZCI6Ik5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InAybTd3MTgxazlkIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+   /*VAR_PROJECT_PATH*/
+   _embedded("p2m7w181k9d", "Node", "12.18.3", "PROJECT_PATH", 60000 )!
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022вызов функции\u0022\u007d", 282796894)!
+   /*Dat:eyJzIjoiRW1iZWRkZWRMYW5ndWFnZXNOb2RlSnMiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTm9kZVZlcnNpb25MaXN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiIxMi4xOC4zIn0seyJpZCI6Ik5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjZrNGlpcHFodDd1IiwiY2xhc3MiOiJzdHJpbmcifV19*/
+   _embedded("6k4iipqht7u", "Node", "12.18.3", "", 60000 )!
+   section_end()!
+
+})!]]></Script>
+     <ModuleInfo><![CDATA[{
+}
+]]></ModuleInfo>
+     <Modules/>
+     <EmbeddedData><![CDATA[[{"data":"\r\nawait (new Promise((resolve, reject) => {\r\n\tsetTimeout(() => {\r\n    console.log('После ожидания')\r\n    resolve()\r\n}, 2000)\r\n}));\r\n\r\n\r\n","data_name":"1eprpun1bsl","data_type":0,"language_name":"Node","language_version":"12.18.3"},{"data":"\r\nconst test = require('../test')\r\n\r\nconsole.log(test.name)\r\n\r\n// await (new Promise((resolve, reject) => {\r\n// \tsetTimeout(() => {\r\n//     console.log('После ожидания')\r\n//     resolve()\r\n// }, 2000)\r\n// }));\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n","data_name":"c0njg8s6ewn","data_type":0,"language_name":"Node","language_version":"12.18.3"},{"data":"module.exports = {\n    name: 'Ivan'\n}","data_name":"test","data_type":1,"language_name":"Node","language_version":"12.18.3"},{"data":"\r\nconst test = require('../test')\r\n\r\nconsole.log(test.name)\r\n\r\n\r\nthrow \"Stop reason\";\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n","data_name":"bksyfabzsc7","data_type":0,"language_name":"Node","language_version":"12.18.3"},{"data":"\r\nconst test = require('../test')\r\n\r\nconsole.log(test.name)\r\n\r\nthrow \"Stop reason\";\r\n\r\nawait require(\"../test\")();\r\n\r\n\r\n\r\n\r\n\r\n\r\n","data_name":"oqoahm0yqn","data_type":0,"language_name":"Node","language_version":"12.18.3"},{"data":"\r\nconst test = require('../test')\r\n\r\nconsole.log(test.name)\r\n\r\nawait (new Promise((resolve, reject) => {\r\n\tsetTimeout(() => {\r\n    console.log('После ожидания')\r\n    resolve()\r\n}, 2000)\r\n}));\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n","data_name":"9ucl4c4ugqg","data_type":0,"language_name":"Node","language_version":"12.18.3"},{"data":"\r\nawait BAS_API(\"_HEX:736c65657028313030302921\");\r\n\r\nawait BAS_API(\r\n    \"_HEX:6c6f672822746578742229\"\r\n    );\r\n\r\nawait BAS_API(\"_HEX:52414e444f4d5f46494c45203d202274656d705f22202b2072616e642829202b20222e626174220a6e6174697665282266696c6573797374656d222c2022777269746566696c65222c204a534f4e2e737472696e67696679287b706174683a2052414e444f4d5f46494c452c76616c75653a2022636863702036353030315c725c6e22202b20282822222e6c656e6774683e3029203f20282263642022202b202222202b20225c725c6e2229203a2022222029202b2028282273637269707422292e7265706c616365282f5c723f5c6e2f672c20225c725c6e2229292c6261736536343a66616c73652c617070656e643a66616c73657d29290a6e61746976655f6173796e63282270726f636573736d616e61676572222c20227374617274222c204a534f4e2e737472696e67696679287b6c6f636174696f6e3a2052414e444f4d5f46494c452c20776f726b696e675f666f6c6465723a2022222c207761697466696e6973683a20747275652c20617267756d656e74733a2022222c2076657273696f6e3a20327d2929210a7472790a7b0a7661722073706c6974203d205f726573756c7428292e73706c697428222c22290a5641525f50524f434553535f5354414e444152545f4f5554505554203d206261736536345f6465636f64652873706c69745b305d290a5641525f50524f434553535f4552524f525f4f5554505554203d206261736536345f6465636f64652873706c69745b315d290a7d63617463682865290a7b0a5641525f50524f434553535f5354414e444152545f4f5554505554203d205f726573756c7428290a7d0a736c656570283130303029210a6e6174697665282266696c6573797374656d222c202272656d6f766566696c65222c2052414e444f4d5f46494c4529\");\r\n\r\n\r\n\r\n\r\n","data_name":"8at73mr0amd","data_type":0,"language_name":"Node","language_version":"12.18.3"},{"data":"const api = require('../api')\r\n\r\nawait api.sleep()\r\n\r\nconsole.log('После ожидания')","data_name":"2zsntt4u4rd","data_type":0,"language_name":"Node","language_version":"12.18.3"},{"data":"module.exports = {\n\n    sleep: async function(time) {\n    await BAS_API('sleep(3000)!')\n    },\n\n    getProjectPath: function() {\n    BAS_API(\"VAR_PROJECT_PATH = project_path()\");\n    return [[PROJECT_PATH]]\n    }\n}","data_name":"api","data_type":1,"language_name":"Node","language_version":"12.18.3"},{"data":"const api = require('../api')\r\n\r\n[[PROJECT_PATH]]\r\n\r\n// await api.sleep()\r\n\r\n// console.log('После ожидания')\r\n\r\nlet res = api.getProjectPath()\r\n\r\nconsole.log(res)\r\n","data_name":"p2m7w181k9d","data_type":0,"language_name":"Node","language_version":"12.18.3"},{"data":"let res = await BAS_FUNCTION('showMessage', { msg1: 'hello', msg2: 'world!' })\r\nconsole.log(res)\r\n","data_name":"6k4iipqht7u","data_type":0,"language_name":"Node","language_version":"12.18.3"}]]]></EmbeddedData>
+     <DatabaseId>Database.26514</DatabaseId>
+     <Schema></Schema>
+     <ConnectionIsRemote>false</ConnectionIsRemote>
+     <ConnectionServer></ConnectionServer>
+     <ConnectionPort></ConnectionPort>
+     <ConnectionLogin></ConnectionLogin>
+     <ConnectionPassword></ConnectionPassword>
+     <ScriptName>ScriptName</ScriptName>
+     <ProtectionStrength>4</ProtectionStrength>
+     <UnusedModules>FTP;JSON;Archive;ReCaptcha;SQL;String;ClickCaptcha;URL;Excel;PhoneVerification</UnusedModules>
+     <ScriptIcon>iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4gUYCTcMXHU3uQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAANRElEQVR42u2dbWwU5drHfzM7O7sLbc5SWmlrJBxaIB00ES0QDr6kp4Km+qgt0aZ+sIQvT63HkKrED2z0QashIQHjMasfDAfxJWdzDpzHNxBINSCJVkvSWBg1WgIRTmtog6WlnZ3dnXk+0J2npXDY0naZ3b3/X9ptuy8z1+++ruu+e93XLXENaZqGruvJ7/8ArAKWAnkIuUUWcAb4Vtf1E5N5onQtw2uaVgKEgP8GPOJeZ4SOAn/TdX3ndQGgaRqAAvwTeASw/xMsQq7VRWC9ruv/HOvJx0q+yhP/DJjAw9fyFEKu1mzgH5qmtY1682t7AE3TaoG94t5llWzgtK7rf7zcE0iXuf0/A23ifmUtBN26ri8a+0PPZTH/Z+Hus1YSUFBUVOQ9d+7cF1fyAP87GvMFANmvUqBH13Wk0dFfAvxb3JecCQX/0nV9HYA8mhCERn8hlBuhoE7TNCkZ9+HSIs+kXL9lWRiGgWVZ7sTctsnPz5/y65imiWmarrWmLMv4/X5kWZ7sU/8C/FUZXd71TObGFhcXU19fT3V1NYWFhdi2+5xHXl4eZWVlU4agqamJDRs2uBaAgYEBDhw4QCQSobe3F0lKeRwvS3qAVZMx/sqVK9mxYweDg4NIksTQ0JB7fZ0kTYsHuHjxomuvUVEUampqqK+vp6Wlhfb29lSv+09waSVwaapvVlxczI4dOxgaGpqWmys0faAPDQ2xY8cOiouLU33akqQHSOm/epZlUV9f74z8yz2Doiioqno9sWjGQsB0hCZVVZk9e7ZrjG1ZFqZpEo/HJ9hhcHCQ+vp6Xn/99ZTtIGma9hLwP9f6w+HhYQ4dOoTf759AX09PD+FwmI6ODgYGBkQSOIPXFAwGqayspLm5mZKSkgmQG4bBmjVrmDVr1jVfT9d1SZkMeYWFheNiviRJHDx4kNbWVgeMvLzsKhNQVRVVVV3zeRKJBO3t7Rw+fJhQKMTatWvHQVBYWDipmZk8WQLHft/T0zPO+ELpk9/vp7W1lZ6engl2mdQ0cirZZzgcFsa/wRCEw2EURbnu17huAFRVpaOjQ1jhBqujo2NKIeq6AZBl2TUJXy5rYGBgSjMvWdzC3JYAQAAgJAAQEgAICQCEBABCAgAhAYCQAEAoR6S4+cNdqfgkXZIkCVmWkWUZj8eDx+PJyiooxc3G7+7uviE1h7FYDNM0GRwcpL+/nzNnznDq1CmOHz9OZ2cnhmGgqmpWAOFaAJJ1bjeyIDM/P5/8/HwWLFjAXXfdhaIoeL1eOjs7OXDgAJ9++im2bbumDC7rQkBStm3j9XrTNuK8Xq/zvolEgng87nyNx+MsXryYiooKnn32WSKRCO+88w6JRCIjPUJGAODz+XjyySf58ccf0wacqqoEg0FKSkqYP38+FRUVrFixgoULFzobYizLYt26ddTW1rJ161YOHTrkqvKxrAEALlW/pLs6d3h4mO7ubrq7u2lrayMajXLTTTfx0EMP0dDQQCAQcEb+Sy+9xMqVK2ltbc0oCMQ0MNUbJcsEAgEGBwf58MMPuf/++wmHw3g8HidxvO+++9i+fburt5IJAKYpQfX5fOzdu5dHH32UM2fOOKHjjjvuYNOmTcRiMQFALoBw8eJFGhsbnbYrtm1TW1vL8uXLBQC5Iq/XyzPPPMO5c+ewbRvDMAiFQhiGIQDIFSmKwgsvvEAgEECSJILBINXV1QKAXNKpU6c4cuQItm0Tj8d55JFHXJ8QCgCmORR89NFHzqJVJuQBAoBp1tdffz1uHWDx4sUCgFxSPB53poWJRIIFCxYIAHJJsixz/vx54NKO6mAwKADItbWB5CKQbdsEAgEBQC7JsqxxPRLi8bgAIJeUSCSYP38+AB6Ph76+PgFALqm8vNypJ1AUhe7ubgFArsi2bdasWUM0GgVgZGQkbTUMAgCXTAEbGhqcx/v378fn8wkAckGxWIznnnvOqQ/0+/3s2rXLqRdwq1KuCLJte1x2O119+LIl8Vu7di21tbWYpokkSezevZvz58/POABTtUvKAOTn51NWVuYUPk5XH75Ml2EYrFu3jueff96J/SdPniQcDqfF/U/VLspk30zo/+f7qqqybds2Vq9eTTQaRZIkzp49y1NPPZXW2D8Vu4gc4DpivcfjYf369Xz++eesWLEC0zRRVZVvvvmGxsbGjLoeRZj06rHVsiwSiQSxWIyioiJWrlxJVVUV99xzD9Fo1KkIjsVivPbaaxw6dMj1WX9GApBIJFizZg3Lli1Ly/t5vV78fj9z5syhtLSUhQsXUlBQ4BjdMAwURcE0Td577z3ef/99ZFnOOONnDADJ6pobqZGRkUsxU5Y5duwYH3/8MV9++SU+n8/1U72MB8BNW64sy+LOO+9k1qxZlJaWcvDgQfr7+zNuR1BGAeDxePjkk0/o7+9PC2xerxefz0cwGKSoqIibb76Z0tJSYrEYsVgM27ZZsmQJFRUVbNy4ke+++46dO3dy7NixjOudnDEA7Nu3j59//jktyd/YJDCZCPp8Pmd/YFVVFeXl5YyMjDAyMsLSpUt588036ezsZMuWLZw/fz5jNoqKaeAVPECyOUTyFJRAIIAsy/z000/s3r2bhoYG6urq2Ldvn+P6TdOkoqKCPXv2cO+994qdQdkMSCAQoK+vj+3bt/Pggw+O69gdi8XYsmULTzzxREZAIACYYmgaHh5m06ZNhEIhpw7ANE2efvrpCad5CACyVD6fj6NHj9LY2Igsy872sBdffJGCggIBQK6Ehl9//ZWNGzfi9/uRJIloNMrmzZudfxIJAHIAgq6uLiKRiPN4+fLlLFq0SACQK0qepZQsDDEMg7q6OhKJhAAgV2TbNnv37nUeV1VVuXareMoLQaZp0tTU5Ox2VVWVt99+O2OXQGd0VMkyX3zxBY899hixWIxgMEhpaemMnLE0VbtMCoANGzY4fftmz57NG2+8IQC4ir7//nsURSEWixGPx1m0aNGMnLI2VbuIEDBDsixr3CbRefPmiRwg18LAhQsXnJzATQdQCwDSNCUcO/93a82AAGAGQ0DyBO9kNzEBQA5pbNyXZZnff/9dAJBLCgaDzJkz59JUS1H45ZdfBAC5pLvvvttZ/EkkEpw8edKVn1OUhc+ADMPg4YcfdpZ/v/rqqykd8S48QIZJ0zRuv/12p77ws88+EwDkiqLRKK2trRiGgW3b9Pb2cvjwYdd+XhECplEjIyNs27aNuXPnApcKRV555RVnOig8QJaP/K1bt7Jq1Spn6rdnzx66urpc/bkFANMw3y8oKOCDDz5g9erVWJaFJEl0dnaybds2p05QhIAsUzwex+fz0dTUxOOPP45pmti2jcfj4ejRo2zevDkjNokIAFJUsgN4PB5nxYoV1NTU8MADD2CaplP+raoqb731Frt3786YHUIZA4BhGGlbT0+O5GAwyNy5c7nlllsoLy/n1ltvpbKyEo/Hg2mazqj3+XwcP36cl19+md9++y2jtodlBADRaJRdu3albbuVoijIsjxua1iy42fysSzL+P1+2tvbeffdd+no6MDv92fcIZIZszs4nS1XL9/RkzwdVFEUPB4PXV1dHDlyhP379zs7gzNtU6jrAbi8+1U6k7tYLMbQ0BADAwOcO3eOs2fPcvr0aX744QdOnDhBPB53zg7O9JI41wJweferdHucK50eDoz7Phvk6hAgupLNvMRCkABASAAgJAAQEgAICQCEBABCAgAhAYCQAEBIACAkABASAFxV4tCoG6+p2uC6AciEk7FzQcFgEMuy0g+AaZpUVlYKC9xgVVZWOg2i0gpAPB6nubnZte3PckGGYdDc3DylcrlJATC2OkeSJEpKSgiFQgKCG2T8UChESUnJBLtMRilXBMmyTF9f37jiR9u2Wbt2LbfddhvhcJiOjo4Z6YV3vcnRdFQUJcu/3XJNwWCQyspKmpubKSkpmZAE9vX1TaoyWQFSyiD8fj9tbW3U1NSMo8y2bebNm8err76KqqquKYvOy8ujrKxsyhA0NTWxYcMG14x8y7IwTZN4PD7B+LZt09bWNqkKZQU4k6oHiEQi1NfXMzQ0NCE0JBIJ52Qtt2g6CkpN03Rlg6crXVt+fj6RSCTVQXghmQN8m+qb9vb20tLSIg6OduFaQF5eHi0tLfT29qb6tG8BFF3XT2ialjJ17e3t1NXVUV9fT3V1NYWFha6EYbogVVXVtU0eAQYGBjhw4ACRSITe3t5UvZ4NdAJIAJqmfQXcNdlYZBjGlBYhRBI4dSW3qF1H7lUJHEvOAv42WQBkWXZ154vpkqqq2dgQ+4Ku68ecdQBd13cCFxHKFb1wpYWg9eK+ZH++CPxb1/W3nbxu7G81TWsDqi7/uVBWqQw4qev6eA+gaRq6rlcDp0dJEco+/Zeu647xxwGg63oSgj8C3eJeZZXbTxr/0wnJ/NgHYyBYBLx62QsIZaZ6gLIrGX8CAEkIRr+GgFLgX+IeZuSIvwA8pev6zcBVO1X/x2Rv1BugaZoE/AVYBvwJWCLus/vm9lxa3u0E/p6c5wvloFJd2gf4P8Hwf+/uucowAAAAAElFTkSuQmCC</ScriptIcon>
+     <IsCustomIcon>false</IsCustomIcon>
+     <HideBrowsers>false</HideBrowsers>
+     <IntegrateScheduler>false</IntegrateScheduler>
+     <SingleInstance>false</SingleInstance>
+     <CopySilent>false</CopySilent>
+     <IsEnginesInAppData>false</IsEnginesInAppData>
+     <CompileType>NoProtection</CompileType>
+     <ScriptVersion>1.0.0</ScriptVersion>
+     <AvailableLanguages>en,ru</AvailableLanguages>
+     <EngineVersion>24.3.1</EngineVersion>
+     <SettingsWorker>EnableFlash=false
+EnableWidevine=false
+AutostartDebug=false
+SaveBrowserLog=false
+ProfilesCaching=true
+ToolboxHeight=487
+MaxBrowserStartSimultaneously=3
+MinFreeMemoryToStartBrowser=1500
+MinUnusedCpu=35
+ScenarioWidth=383
+Zoom=100
+IsMaximized=false
+Restart=true
+UseHumanLikeMouseMoves=true
+DebugToolbox=false
+DebugScenario=false
+Languages=&quot;Node,12.18.3&quot;
+Modules=&quot;Node,12.18.3,node-fetch,*&quot;
+Canvas=&quot;disable&quot;
+CanvasNoise=&quot;&quot;
+Audio=&quot;disable&quot;
+QUIC=&quot;disable&quot;
+AudioNoise=&quot;&quot;
+MaxFPS=30
+Webrtc=&quot;disable&quot;
+WebrtcIps=&quot;&quot;
+Webgl=&quot;disable&quot;
+WebglNoise=&quot;&quot;
+WebglRenderer=&quot;&quot;
+WebglVendor=&quot;&quot;
+Detector=true
+</SettingsWorker>
+     <ChromeCommandLine>--disk-cache-size=1
+--disable-gpu-program-cache
+--disable-gpu-shader-disk-cache
+--disable-component-update
+--disable-features=GpuProcessHighPriorityWin,GpuUseDisplayThreadPriority
+--lang=en
+--disable-auto-reload</ChromeCommandLine>
+     <ModulesMetaJson>{
+    &quot;Archive&quot;: true,
+    &quot;Checksum&quot;: false,
+    &quot;Excel&quot;: true,
+    &quot;FTP&quot;: true,
+    &quot;FunCaptcha&quot;: false,
+    &quot;HCaptcha&quot;: false,
+    &quot;ReCaptcha&quot;: true,
+    &quot;SQL&quot;: true,
+    &quot;SmsReceive&quot;: true
+}
+</ModulesMetaJson>
+     <OutputTitle1 ru="First Results" en="First Results"/>
+     <OutputTitle2 ru="Second Results" en="Second Results"/>
+     <OutputTitle3 ru="Third Results" en="Third Results"/>
+     <OutputTitle4 ru="Fourth Results" en="Fourth Results"/>
+     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
+     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
+     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
+     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
+     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
+     <OutputVisible1>1</OutputVisible1>
+     <OutputVisible2>1</OutputVisible2>
+     <OutputVisible3>1</OutputVisible3>
+     <OutputVisible4>0</OutputVisible4>
+     <OutputVisible5>0</OutputVisible5>
+     <OutputVisible6>0</OutputVisible6>
+     <OutputVisible7>0</OutputVisible7>
+     <OutputVisible8>0</OutputVisible8>
+     <OutputVisible9>0</OutputVisible9>
+     <ModelList/>
+</BrowserAutomationStudioProject>
